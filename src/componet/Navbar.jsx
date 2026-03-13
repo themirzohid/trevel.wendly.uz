@@ -38,7 +38,7 @@ export function NavbarWithSearch() {
   }, []);
 
   return (
-    <Navbar className="sticky top-0 z-50 max-w-full rounded-8 border-none bg-gradient-to-r from-[#6A1B9A] via-[#8E24AA] to-[#6A1B9A] px-6 py-4 shadow-lg">
+    <Navbar className="sticky top-0 z-50 max-w-full rounded-3xl border-spacing-8 bg-gradient-to-r from-[#6A1B9A] via-[#8E24AA] to-[#6A1B9A] px-6 py-4 shadow-lg">
       <div className="flex items-center justify-between text-white">
         <Typography className="text-2xl font-bold tracking-widest text-white cursor-pointer hover:text-pink-300 transition">
           WANDERLY
