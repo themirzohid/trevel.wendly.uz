@@ -1,0 +1,17 @@
+import { Navbar } from '@material-tailwind/react'
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import { NavbarWithSearch } from '../componet/Navbar'
+import { FooterWithSocialLinks } from './Futer'
+
+const Loyault = () => {
+  return (
+    <div>
+        <NavbarWithSearch />
+        <Outlet />
+        <FooterWithSocialLinks />
+    </div>
+  )
+}
+
+export default Loyault
