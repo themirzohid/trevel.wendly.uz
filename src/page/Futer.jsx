@@ -21,7 +21,7 @@ export function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full bg-gradient-to-r 
     from-[#6A1B9A] to-[#8E24AA] text-white  font-bold tracking-wider">
-      <div className="mx-auto w-full max-w-7xl px-8">
+      <div className="mx-auto w-full max-w-7xl px-8 text-white">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 text-white font-bold tracking-wider">
             WANDERLY
@@ -42,7 +42,7 @@ export function FooterWithSocialLinks() {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                      className="py-1.5 font-normal transition-colors   text-white"
                     >
                       {link}
                     </Typography>

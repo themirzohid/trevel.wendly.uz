@@ -36,7 +36,7 @@ export function HorizontalCard() {
         <img
           src={data.img}
           alt="card-image"
-          className="h-full w-full object-cover"
+          className="h-96 w-full object-cover"
         />
       </CardHeader>
       <CardBody>

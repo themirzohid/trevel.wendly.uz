@@ -9,6 +9,8 @@ const Loyault = () => {
     <div>
         <NavbarWithSearch />
         <Outlet />
+        <br />
+        <br /> <br /> <br />  
         <FooterWithSocialLinks />
     </div>
   )
